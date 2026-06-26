@@ -45,6 +45,11 @@ onMounted(() => {
         <p class="hero-copy">
           kmax_web 用于构建知识库问答、智能客服和可编排的 AI 工作流。
         </p>
+        <div class="hero-actions">
+          <RouterLink to="/knowledge-bases" class="router-link-button">
+            <el-button type="primary" size="large">进入知识库管理</el-button>
+          </RouterLink>
+        </div>
       </div>
       <el-card class="status-card" shadow="never">
         <template #header>后端状态</template>
